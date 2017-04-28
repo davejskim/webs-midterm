@@ -1,0 +1,22 @@
+@import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
+
+*{
+	position: relative;
+	box-sizing: border-box;
+
+	font-family:  'Spoqa Han Sans', 'Helvetica Neue', sans-serif;
+}
+
+#header-logo, #top-nav{
+	display: inline-block;
+}
+.nav-list{
+	width: 10em;
+	margin: 15em auto;
+}
+
+#top-nav ul, #top-nav li{
+	display: inline;
+	list-style: none;
+	text-align: center;
+} 
