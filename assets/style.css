@@ -1,22 +1,20 @@
 @import url("//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css");
 
-*{
-	position: relative;
-	box-sizing: border-box;
+* {position: relative; box-sizing: border-box; }
+html, body {font-family: 'Spoqa Han Sans', sans-serif; margin: 0 auto; width: 1200px; }
 
-	font-family:  'Spoqa Han Sans', 'Helvetica Neue', sans-serif;
-}
+h1-h4 {font-style: normal; font-weight: normal; }
+ul, ol, li {list-style: none; }
+section, article, header, footer, nav, aside, figure, figcaption {display: block; } 
 
-#header-logo, #top-nav{
-	display: inline-block;
-}
-.nav-list{
-	width: 10em;
-	margin: 15em auto;
-}
+	/* header area */
+#header-logo, #top-nav {display: inline-block; float: left; overflow: hidden; }
+#header-logo {width: 100px; text-align: left; padding: 0 5px; }
 
-#top-nav ul, #top-nav li{
-	display: inline;
-	list-style: none;
+	/* nav area */
+.nav-list{ width: 10px; margin: 0 auto; }
+#top-nav ul, #top-nav li {display: inline-block; } 
+#top-nav li{
+	margin: auto 5px;	
 	text-align: center;
-} 
+}
